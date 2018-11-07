@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PiAss.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:PiAss.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:EncodeAudio.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:EncodeAudio.hpp">
+   </FileRef>
+</Workspace>
