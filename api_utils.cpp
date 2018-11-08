@@ -24,7 +24,7 @@ string json_serializer(string encoding, int sampleRateHertz, string languageCode
     
     // combining previous JSON
     json finalJson = {
-        {"config",RecognitionConfig},
+        {"config",configJson},
         {"audio",audioJson}
     };
     
