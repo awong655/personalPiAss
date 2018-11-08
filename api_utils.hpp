@@ -22,6 +22,6 @@
 
 
 std::string json_serializer(std::string, int, std:: string, int, bool, bool, std:: string);
-nlohmann::json json_deserialize(string);
+nlohmann::json json_deserialize(std::string);
 
 #endif /* api_utils_hpp */
