@@ -10,7 +10,7 @@
 using namespace std;
 using json = nlohmann::json;
 
-RecognitionAudio(string content){
+RecognitionAudio::RecognitionAudio(string content){
     audioJson = {
         {"content": context}
     };
