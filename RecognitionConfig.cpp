@@ -14,9 +14,9 @@ using json = nlohmann::json;
 RecognitionConfig::RecognitionConfig(string encoding, int sampleRateHertz, string languageCode, int maxAlternatives, bool profanityFilter, bool enableWordTimeOffsets){
     configJson = {
         {"encoding", encoding},
-        {"sampleRateHertz", str(sampleRateHertz)},
+        {"sampleRateHertz", std::to_string(sampleRateHertz)},
         {"languageCode", languageCode},
-        {"maxAlternatives", str(maxAlternatives)},
+        {"maxAlternatives", std::to_string(maxAlternatives)},
         {"profanityFilter", profanityFilter},
         {"enableWordTimeOffsets", enableWordTimeOffsets}
     };
