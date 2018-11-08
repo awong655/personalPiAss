@@ -15,7 +15,7 @@
 class RecognitionConfig{
 public:
     nlohmann::json configJson;
-    RecognitionConfig(std::string, int, std:: string, int, bool, bool);
+    RecognitionConfig(std::string, int, std::string, int, bool, bool);
 };
 
 #endif /* RecognitionConfig_hpp */
