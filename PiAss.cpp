@@ -6,30 +6,16 @@
 //
 //
 
-#include "PiAss.hpp"
+#include "piAss.h"
+
 using namespace std;
+using json = nlohmann::json;
 
 int main(){
     cout << "Starting piAss\n" << endl;
-    int fd[2];
-    pid_t pid;
-    string res;
+    string jsonString = json_serializer("FLAC",16,"EN",2,false,false,"hello world!");
     
-    if (pipe(fd) < 0){
-        perror("fatal error");
-        exit(1);
-    }
-    
-    pid = fork();
-    if (pid < 0) {
-        perror("fork error");
-        exit(-1);
-    }
-    if(pid > 0){
-        
-    }else{
-        
-    }
-    
+    cout << jsonString << endl;
 }
+
 

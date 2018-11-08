@@ -16,5 +16,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <string>
+#include "api_utils.hpp"
+#include "json.hpp"
 
 #endif /* PiAss_hpp */

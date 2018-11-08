@@ -8,9 +8,21 @@
       location = "group:PiAss.hpp">
    </FileRef>
    <FileRef
-      location = "group:EncodeAudio.cpp">
+      location = "group:api_utils.cpp">
    </FileRef>
    <FileRef
-      location = "group:EncodeAudio.hpp">
+      location = "group:RecognitionConfig.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:RecognitionConfig.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:RecognitionAudio.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:RecognitionAudio.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:api_utils.hpp">
    </FileRef>
 </Workspace>
