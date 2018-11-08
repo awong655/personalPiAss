@@ -12,6 +12,6 @@ using json = nlohmann::json;
 
 RecognitionAudio::RecognitionAudio(string content){
     audioJson = {
-        {"content", context}
+        {"content", content}
     };
 }
