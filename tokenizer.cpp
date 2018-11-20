@@ -18,6 +18,6 @@ void TokenizerClass::tokenize(string input){
         tokens.push_back(intermediate);
     }
     for(int i = 0; i < tokens.size(); i++){
-        cout << tokens[i] << '\n';
+        cout << tokens[i] << endl;
     }
 }
