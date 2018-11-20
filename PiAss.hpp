@@ -17,6 +17,7 @@
 #include <errno.h>
 #include <string>
 #include "api_utils.hpp"
+#include "tokenizer.hpp"
 #include "json.hpp"
 
 #endif /* PiAss_hpp */

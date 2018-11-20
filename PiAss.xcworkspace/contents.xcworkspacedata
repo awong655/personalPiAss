@@ -20,6 +20,12 @@
       location = "group:RecognitionAudio.cpp">
    </FileRef>
    <FileRef
+      location = "group:tokenizer.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:tokenizer.hpp">
+   </FileRef>
+   <FileRef
       location = "group:RecognitionAudio.hpp">
    </FileRef>
    <FileRef
