@@ -9,7 +9,7 @@
 #include "tokenizer.hpp"
 using namespace std;
 
-TokenizerClass::tokenize(string input){
+void TokenizerClass::tokenize(string input){
     vector<string> tokens;
     
     stringstream is(input);
@@ -17,6 +17,7 @@ TokenizerClass::tokenize(string input){
     while(getline(is, intermediate, ' ')){
         tokens.push_back(intermediate);
     }
-    for(int i = 0; i < tokens.size(); i++)
+    for(int i = 0; i < tokens.size(); i++){
         cout << tokens[i] << '\n';
+    }
 }

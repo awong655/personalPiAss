@@ -18,7 +18,7 @@ int main(){
     json j = json::parse(jsonString);
     cout << "example deserialization: get encoding value in inner config JSON" << endl;
     cout << j["config"]["encoding"] << endl;
-    TokenizerClass.tokenize("hello world")
+    TokenizerClass::tokenize("hello world")
     
 }
 

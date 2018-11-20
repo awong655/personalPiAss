@@ -19,6 +19,7 @@
 #include <sstream>
 
 class TokenizerClass{
+public:
     static void tokenize(std::string);
     
 };
