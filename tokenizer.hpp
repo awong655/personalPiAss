@@ -10,6 +10,7 @@
 #define tokenizer_hpp
 
 #include <stdio.h>
+#include <iostream.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
